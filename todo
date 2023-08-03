@@ -1,8 +1,9 @@
-align left items
-align rigth items
-set dynamic divs
+align left items -> ok
+align rigth items 
+set dynamic divs -> ok
 create switch language buttons
 create javascript code
-select image for profile pic
-create typing animation effect
-create "about" section
+select image for profile pic -> ok
+create typing animation effect -> ok
+create "about" section -> ok
+add icons on button

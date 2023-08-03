@@ -6,30 +6,45 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cutive&family=Handjet&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Cutive&family=Handjet&family=Podkova&display=swap" rel="stylesheet"> 
     <title>Andres Junio</title>
 </head>
 <body>
     <header>
         <div class="profile">
-            <img src="" alt="">
-            <h1>Andres Junio <span class="cursor">|</span></h1>
-            <p class="caption">Java software engineer and Math student</p>
+            <img src="assets/profilepic.jpg" alt="Profile pic">
+            <h1>Andres Junio</h1>
+            <span class="caption">Java software engineer and Math student</span>
         </div>
-        
         <nav class="links">
-            <a href="">Education </a>
-            <a href="">Work experience</a>
-            <a href="">Academic experience</a>
-            <a href="">Skills</a>
-            <a href="">Projects</a>
+            <button id="link-about-me" class="stylized-button" onclick="updateState('about-me', 'link-about-me')"><i class="fa-regular fa-building-columns"></i> About me</button>
+            <button id="link-education" onclick="updateState('education', 'link-education')">Education </button>
+            <button id="link-work-exp" onclick="updateState('work-exp', 'link-work-exp')">Work experience</button>
+            <button id="link-skills" onclick="updateState('skills', 'link-skills')">Skills</button>
+            <button id="link-projects" onclick="updateState('projects', 'link-projects')">Projects</button>
+            <button id="link-academic-exp" onclick="updateState('academic-exp', 'link-academic-exp')">Academic experience</button>
         </nav>
     </header>
     
     <section class="content">
-        <div class="education">
+        <div class="about-me" id="about-me">
+            <h2 class="topic">About me</h2>
+            <p class="text">
+                Hey, welcome to me website! My name is Andres, i have 23 yo and i'm a software engineer
+                and mathematics student at Federal University of Minas Gerais. I start coding at 17 yo, 
+                and since then i've never stopped. I like to solve logic related problems, and find this 
+                studying math and software engineering. Also, i'm a computer science enthusiast, and i'm 
+                interested in learn about algorithms and data structures applications in real problems, 
+                graph theory and related topics.
+                <br>
+                <br>
+                My strong programming background is in Java and backend tools. If you wanna talk with me, 
+                feel free to send me a email in andres.dev@gmail.com or follow me on my networks: 
+                
+                
+            </p>
+        </div>
+        <div class="education" id="education">
             <h2 class="topic">Education</h2>
             <div class="education-chd">
                 <h3 class="title">[UFMG] Federal University of Minas Gerais, Brazil</h3>
@@ -41,13 +56,14 @@
             </div>
         </div>
 
-        <div class="work-exp">
+        <div class="work-exp" id="work-exp">
             <h2 class="topic">Work experience</h2>
             <div class="work-exp-chd">
                 <h3 class="title">Prodemge - Information Technology Company of State of Minas Gerais</h3>
                 <span class="subtitle">Backend software engineer intern (Nov 2022 - Currently)</span>
                 <p>Worked improve new features, updates and maintenances in ID cards system
                     widely used in state of Minas Gerais.
+                    <br>
                     <br>
                     Skills: Java, Hibernate, JPA, SQL with IBM DB2, Git, Gitlab, OOP, Problem Solving.
                 </p>
@@ -58,12 +74,13 @@
                 <p>Worked teaching children and teenagers concepts about informatics, like programming logic, 
                     robotics, simple game development, and simple webpages development using HTML5, CSS3 and Javascript.
                     <br>
+                    <br>
                     Skills: Logic programming, good communication.
                 </p>
             </div>
         </div>
-
-        <div class="academic-exp">
+        
+        <div class="academic-exp" id="academic-exp">
             <h2 class="topic">Academic experience</h2>
             <div class="academic-exp-chd">
                 <h3 class="title"><a href="https://trex.dcc.ufmg.br/en/">Theory Expertise Lab</a> - Computer Science Department UFMG</h3>
@@ -74,8 +91,8 @@
                 </p>
             </div>
         </div>
-
-        <div class="skills">
+        
+        <div class="skills" id="skills">
             <h2 class="topic">Skills</h2>
             <p>Java, Spring Boot, Relational Databases, Git, HTML, CSS, Typescript, SOLID, API's design. 
                 <br>
@@ -83,10 +100,12 @@
             </p>
         </div>
 
-        <div class="projects">
+        <div class="projects" id="projects">
             <h2 class="topic">Personal projects</h2>
             <p>Under Building</p>
         </div>
     </section>
+    
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 

@@ -6,7 +6,6 @@ body {
     background-color: #0c242c;
     color: white;
     font-family: 'Handjet', cursive;
-    /* font-family: 'Cutive', serif; */
     display: flex;
     height: 100vh;
     width: 100vw;
@@ -22,12 +21,37 @@ header{
     padding: 35px;
 }
 
+img {
+    border-radius: 50%;
+}
+
+h1,
+.topic {
+    max-width: min-content;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid white;
+    animation: typing 2.5s steps(30,end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    from {width: 0}
+    to {width: 100%}
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent}
+    50% { border-color: white}
+}
+
 .profile {
     width: 100%;
-    height: 30%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: start;
 }
 
 .caption{ 
@@ -35,7 +59,8 @@ header{
 }
 
 nav{
-    height: 55%;
+    padding-top: 20px;
+    height: 45%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -44,21 +69,41 @@ nav{
 
 }
 
-a{
+button{
+    background-color: #0c242c;
+    border: none;
+    cursor: pointer;
+    font-family: 'Handjet', cursive;
+    padding: 10px 15px;
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
+    border-radius: 15px;
+}
+
+.stylized-button{
+    border: 1px solid white;
+}
+
+.education,
+.work-exp,
+.academic-exp,
+.skills,
+.projects {
+    display: none;
 }
 
 /*right content*/
 section {
     height: 100%;
     width: 75%;
-    background-color: red;
     padding: 100px;
 }
 
-h1 {
-    /* font-family: 'Cutive', serif; */
+h2 {
     font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
 }
