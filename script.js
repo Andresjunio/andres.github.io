@@ -17,15 +17,16 @@ function setTextHtml(element, text){
 function english(){
     /*left content*/
     setTextHtml("caption", "Java software engineer and Math student");
-    setTextHtml("about-me-title", "About me");
+    setTextHtml("link-about-me", "About me");
     setTextHtml("link-education", "Education");
     setTextHtml("link-work-exp", "Work experience");
     setTextHtml("link-skills", "Skills");
+    setTextHtml("link-projects", "Projects");
     setTextHtml("link-academic-exp", "Academic experience");
 
     /*main content*/
     /*about me*/
-    setTextHtml("about-me-title", "Sobre mim");
+    setTextHtml("about-me-title", "About me");
     setTextHtml("about-me-text", `Hey, welcome to me website! My name is Andres, i have 23 yo and i'm a software engineer
     and mathematics student at Federal University of Minas Gerais. I start coding at 17 yo, 
     and since then i've never stopped. I like to solve logic related problems, and find this 

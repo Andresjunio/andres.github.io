@@ -13,8 +13,10 @@
     <header>
         <div class="profile">
             <img src="assets/profilepic.jpg" alt="Profile pic">
-            <h1>Andres Junio</h1>
-            <span class="caption" id="caption">Java software engineer and Math student</span>
+            <div class="profile-desc">
+                <h1>Andres Junio</h1>
+                <span class="caption" id="caption">Java software engineer and Math student</span>
+            </div>
         </div>
         <nav class="links">
             <button id="link-about-me" class="stylized-button" onclick="updateState('about-me', 'link-about-me')"><i class="fa-regular fa-building-columns"></i> About me</button>
@@ -24,13 +26,15 @@
             <button id="link-projects" onclick="updateState('projects', 'link-projects')">Projects</button>
             <button id="link-academic-exp" onclick="updateState('academic-exp', 'link-academic-exp')">Academic experience</button>
         </nav>
-        <select name="languages" id="languages">
-            <option value="en" onclick="english()">English</option>
-            <option value="pt-br" onclick="portuguese()">Português</option>
-        </select>
     </header>
     
     <section class="content">
+        <div class="language-box">
+            <select name="languages" id="languages">
+                <option value="en" onclick="english()">English</option>
+                <option value="pt-br" onclick="portuguese()">Português</option>
+            </select>
+        </div>
         <div class="about-me" id="about-me">
             <h2 class="topic" id="about-me-title">About me</h2>
             <p class="text" id="about-me-text">
