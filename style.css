@@ -69,7 +69,8 @@ nav{
 
 }
 
-button{
+button,
+select{
     background-color: #0c242c;
     border: none;
     cursor: pointer;
@@ -93,17 +94,19 @@ button{
     display: none;
 }
 
+
+
 /*right content*/
-section {
+section{
     height: 100%;
     width: 75%;
     padding: 100px;
 }
 
-h2 {
+h2{
     font-size: 3rem;
 }
 
-p {
+p{
     font-size: 2rem;
 }
