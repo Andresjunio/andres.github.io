@@ -17,12 +17,12 @@ function setTextHtml(element, text){
 function english(){
     /*left content*/
     setTextHtml("caption", "Java software engineer and Math student");
-    setTextHtml("link-about-me", "About me");
-    setTextHtml("link-education", "Education");
-    setTextHtml("link-work-exp", "Work experience");
-    setTextHtml("link-skills", "Skills");
-    setTextHtml("link-projects", "Projects");
-    setTextHtml("link-academic-exp", "Academic experience");
+    setTextHtml("link-about-me", `About me<i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>`);
+    setTextHtml("link-education", `Education<i class="fa-solid fa-graduation-cap" style="color: #ffffff;"></i>`);
+    setTextHtml("link-work-exp", `Work experience<i class="fa-regular fa-keyboard" style="color: #ffffff;"></i>`);
+    setTextHtml("link-skills", `Skills<i class="fa-solid fa-code" style="color: #ffffff;"></i>`);
+    setTextHtml("link-projects", `Projects<i class="fa-sharp fa-solid fa-puzzle-piece"></i>`);
+    setTextHtml("link-academic-exp", `Academic experience<i class="fa-regular fa-file" style="color: #ffffff;"></i>`);
 
     /*main content*/
     /*about me*/
@@ -86,12 +86,12 @@ function english(){
 function portuguese(){
     /*left content */
     setTextHtml("caption", "Desenvolvedor Java e estudante de matemática");
-    setTextHtml("link-about-me", "Sobre mim");
-    setTextHtml("link-education", "Escolaridade");
-    setTextHtml("link-work-exp", "Experiência profissional");
-    setTextHtml("link-skills", "Habilidades");
-    setTextHtml("link-projects", "Projetos");
-    setTextHtml("link-academic-exp", "Experiência acadêmica");
+    setTextHtml("link-about-me", `Sobre mim<i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>`);
+    setTextHtml("link-education", `Escolaridade<i class="fa-solid fa-graduation-cap" style="color: #ffffff;"></i>`);
+    setTextHtml("link-work-exp", `Experiência profissional<i class="fa-regular fa-keyboard" style="color: #ffffff;"></i>`);
+    setTextHtml("link-skills", `Habilidades<i class="fa-solid fa-code" style="color: #ffffff;"></i>`);
+    setTextHtml("link-projects", `Projetos<i class="fa-sharp fa-solid fa-puzzle-piece"></i>`);
+    setTextHtml("link-academic-exp", `Experiência acadêmica<i class="fa-regular fa-file" style="color: #ffffff;"></i>`);
     
     /*main content*/
 

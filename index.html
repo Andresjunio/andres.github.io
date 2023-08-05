@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cutive&family=Handjet&family=Podkova&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cutive&family=Handjet&family=Podkova&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c908830905.js" crossorigin="anonymous"></script>
     <title>Andres Junio</title>
 </head>
 <body>
@@ -19,12 +21,12 @@
             </div>
         </div>
         <nav class="links">
-            <button id="link-about-me" class="stylized-button" onclick="updateState('about-me', 'link-about-me')"><i class="fa-regular fa-building-columns"></i> About me</button>
-            <button id="link-education" onclick="updateState('education', 'link-education')">Education </button>
-            <button id="link-work-exp" onclick="updateState('work-exp', 'link-work-exp')">Professional experience</button>
-            <button id="link-skills" onclick="updateState('skills', 'link-skills')">Skills</button>
-            <button id="link-projects" onclick="updateState('projects', 'link-projects')">Projects</button>
-            <button id="link-academic-exp" onclick="updateState('academic-exp', 'link-academic-exp')">Academic experience</button>
+            <button id="link-about-me" class="stylized-button" onclick="updateState('about-me', 'link-about-me')">About me<i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+            <button id="link-education" onclick="updateState('education', 'link-education')">Education<i class="fa-solid fa-graduation-cap" style="color: #ffffff;"></i></button>
+            <button id="link-work-exp" onclick="updateState('work-exp', 'link-work-exp')">Professional experience<i class="fa-regular fa-keyboard" style="color: #ffffff;"></i></button>
+            <button id="link-skills" onclick="updateState('skills', 'link-skills')">Skills<i class="fa-solid fa-code" style="color: #ffffff;"></i></button>
+            <button id="link-projects" onclick="updateState('projects', 'link-projects')">Projects<i class="fa-sharp fa-solid fa-puzzle-piece"></i></button>
+            <button id="link-academic-exp" onclick="updateState('academic-exp', 'link-academic-exp')">Academic experience<i class="fa-regular fa-file" style="color: #ffffff;"></i></button>
         </nav>
     </header>
     
@@ -110,9 +112,10 @@
             <h2 class="topic" id="projects-title">Personal projects</h2>
             <p id="projects-text">Under Building</p>
         </div>
-
+        <footer>
+            <span class="copyrigth">&#0169 Andres Junio S. Souza - 2023</span>
+        </footer>
     </section>
-    
     <script src="script.js"></script>
 </body>
 </html> 

@@ -85,10 +85,16 @@ select{
     cursor: pointer;
     font-family: 'Handjet', cursive;
     padding: 10px 15px;
+    align-items: center;
+    justify-content: space-between;
     text-decoration: none;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     border-radius: 15px;
+}
+
+i{
+    margin-left: 0.8rem;
 }
 
 .stylized-button{
@@ -114,7 +120,7 @@ select{
 }
 
 section{
-    height: 100%;
+    height: 92.5vh;
     width: 75%;
     padding: 35px 100px;
 }
@@ -125,4 +131,19 @@ h2{
 
 p{
     font-size: 2rem;
+}
+
+.about-me,
+.education,
+.work-exp,
+.skills,
+.projects,
+.academic-exp{
+    height: 90%;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em
 }
