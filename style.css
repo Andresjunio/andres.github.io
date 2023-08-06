@@ -121,7 +121,7 @@ i{
 }
 
 section{
-    height: 820px;
+    height: 700px;
     width: 75%;
     padding: 35px 100px;
 }
@@ -144,6 +144,7 @@ p{
 }
 
 .social-field{
+    margin-top: 100px;
     height: 2em;
     display: flex;
     align-items: center;

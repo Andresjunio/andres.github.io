@@ -48,7 +48,7 @@ function english(){
     <br>
     <br>
     My strong programming background is in Java and backend tools. If you wanna talk with me, 
-    feel free to send me a email in andres.dev@gmail.com or follow me on my networks: `);
+    feel free to send me a email or follow me on my networks: `);
 
     /*Education*/
     setTextHtml("education-title", "Education");
@@ -118,7 +118,7 @@ function portuguese(){
     <br>
     <br>
     Minha maior experiência em programação é com Java, e ferramentas do ecossistema backend. Caso você queira falar comigo, fique à vontade para 
-    me enviar um email no endereço andres.dev@gmail.com ou me seguir em minhas redes: `);
+    me enviar um email ou me seguir em minhas redes: `);
 
     /*Education*/
     setTextHtml("education-title", "Escolaridade");
