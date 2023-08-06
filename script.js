@@ -1,3 +1,14 @@
+var sprite = document.getElementById("sprite");
+
+function staticSprite(){
+    sprite.src = "assets/static-sprite.png";
+}
+
+function changeSprite(){
+    sprite.src = "assets/animation.gif";
+    setTimeout(staticSprite, 1500);
+}
+
 var currentButtonId = "link-about-me";
 var currentDisplayId = "about-me";
 
@@ -8,6 +19,7 @@ function updateState(element, linkElement){
     currentDisplayId = element;
     document.getElementById(linkElement).className = "stylized-button";
     document.getElementById(element).style.display = "block";
+    changeSprite();
 }
 
 function setTextHtml(element, text){
@@ -81,6 +93,7 @@ function english(){
     <br>
     Skills: Math, graph algorithms, english, research.`);
     
+    changeSprite();
 }
 
 function portuguese(){
@@ -150,5 +163,5 @@ function portuguese(){
     <br>
     <br>
     Competências: matemática, algoritmos, teoria dos grafos, inglês.`);
-
+    changeSprite();
 }

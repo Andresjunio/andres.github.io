@@ -21,8 +21,9 @@ header{
     padding: 35px 35px 0 35px;
 }
 
-img {
+.profile-pic{
     border-radius: 50%;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -120,7 +121,7 @@ i{
 }
 
 section{
-    height: 92.5vh;
+    height: 820px;
     width: 75%;
     padding: 35px 100px;
 }
@@ -142,8 +143,25 @@ p{
     height: 90%;
 }
 
+.social-field{
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
 footer{
     width: 100%;
     text-align: center;
     font-size: 1.2em
+}
+
+.sprite-field{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sprite{
+    justify-content: flex-end;
 }
