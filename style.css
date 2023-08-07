@@ -27,7 +27,6 @@ header{
 }
 
 
-h1,
 .topic {
     max-width: min-content;
     overflow: hidden;
@@ -45,10 +44,6 @@ h1,
 @keyframes blink-caret {
     from, to { border-color: transparent}
     50% { border-color: white}
-}
-
-h1{
-    margin-left: 28%;
 }
 
 .profile {
@@ -121,7 +116,7 @@ i{
 }
 
 section{
-    height: 700px;
+    height: 690px;
     width: 75%;
     padding: 35px 100px;
 }
@@ -130,8 +125,17 @@ h2{
     font-size: 3rem;
 }
 
-p{
+h3 {
     font-size: 2rem;
+}
+
+p{
+    font-size: 1.8rem;
+}
+
+.work-skills,
+.academic-skills{
+    font-size: 1.5rem;
 }
 
 .about-me,
@@ -150,6 +154,12 @@ p{
     align-items: center;
     justify-content: center;
     gap: 50px;
+}
+
+.trex-link{
+    text-decoration: none;
+    color: darkseagreen;
+    font-size: 1.5rem;
 }
 
 footer{

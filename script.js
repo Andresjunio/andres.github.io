@@ -65,28 +65,24 @@ function english(){
 
     /*Education*/
     setTextHtml("education-title", "Education");
-    setTextHtml("first-education-title", "[UFMG] Federal University of Minas Gerais, Brazil");
+    setTextHtml("first-education-title", "Federal University of Minas Gerais (UFMG), Brazil");
     setTextHtml("first-education-subtitle", "Mathematics degree (Feb 2022 - Dec 2025)");
     setTextHtml("second-education-title", "Cotemig College");
     setTextHtml("second-education-subtitle", "High school and technical course in informatics (Feb 2015 - Dec 2017).");
     
     /*Work experience*/
     setTextHtml("work-exp-title", "Professional experience");
-    setTextHtml("first-work-exp-title", "Prodemge - Information Technology Company of State of Minas Gerais");
-    setTextHtml("first-work-exp-subtitle", "Backend software engineer intern (Nov 2022 - Currently)");
+    setTextHtml("first-work-exp-title", "Backend software engineer intern");
+    setTextHtml("first-work-exp-subtitle", "Prodemge - Information Technology Company of State of Minas Gerais (Nov 2022 - Currently)");
     setTextHtml("first-work-exp-text", `Worked improve new features, updates and maintenances in ID cards system
-    used in state of Minas Gerais.
-    <br>
-    <br>
-    Skills: Java, Hibernate, JPA, SQL with IBM DB2, Git, Gitlab, OOP, Problem Solving.`);
-    setTextHtml("second-work-exp-title", "Codebuddy - School of informatics for kids");
-    setTextHtml("second-work-exp-subtitle", "Instructor (Jan 2022 - Ago 2022)");
+    used in state of Minas Gerais.`);
+    setTextHtml("first-work-skills","Skills: Java, Hibernate, JPA, SQL with IBM DB2, Git, Gitlab, OOP, Problem solving.");
+    setTextHtml("second-work-exp-title", "Instructor");
+    setTextHtml("second-work-exp-subtitle", "Codebuddy - School of informatics for children and teenagers (Jan 2022 - Ago 2022)");
     setTextHtml("second-work-exp-text", `Worked teaching children and teenagers concepts about informatics, like programming logic, 
-    robotics, simple game development, and simple webpages development using HTML5, CSS3 and Javascript.
-    <br>
-    <br>
-    Skills: Logic programming, good communication.`);
-    
+    robotics, simple game development, and simple webpages development using HTML5, CSS3 and Javascript.`);
+    setTextHtml("second-work-skills", "Skills: Logic programming, good communication.");
+
     /*Skills*/
     setTextHtml("skills-title", "Skills");
     setTextHtml("skills-text", `Java, Spring Boot, Relational Databases, Git, HTML, CSS, Typescript, SOLID, API's design. 
@@ -99,12 +95,13 @@ function english(){
 
     /*Projects*/
     setTextHtml("academic-exp-title", "Academic experience");
-    setTextHtml("first-academic-exp-title", `<a href="https://trex.dcc.ufmg.br/en/">Theory Expertise Lab</a> - Computer Science Department UFMG`);
-    setTextHtml("first-academic-exp-subtitle", "Undergraduate research student (Ago 2022 - Currently)");
+    setTextHtml("first-academic-exp-title", "Undergraduate research stutent");
+    setTextHtml("first-academic-exp-subtitle", `<a class="trex-link" target="_blank" href="https://trex.dcc.ufmg.br/en/">Theory Expertise Lab</a> -
+    Computer Science Department UFMG (Ago 2022 - Currently)`);
     setTextHtml("first-academic-exp-text", `Working in a open problem related with algorithms and graph theory, oriented by Vinicius dos Santos. 
     <br>
     <br>
-    Skills: Math, graph algorithms, english, research.`);
+    <span class="academic-skills">Skills: Math, graph algorithms, english, research.</span>`);
     
     setTextHtml("copyrigth", "&#0169 Andres Junio S. Souza - 2023 (website under building)");
 
@@ -137,32 +134,29 @@ function portuguese(){
 
     /*Education*/
     setTextHtml("education-title", "Escolaridade");
-    setTextHtml("first-education-title", "Universidade Federal de Minas Gerais");
+    setTextHtml("first-education-title", "Universidade Federal de Minas Gerais (UFMG)");
     setTextHtml("first-education-subtitle", "Graduação em matemática (Jan 2022 - Dez 2025).");
     setTextHtml("second-education-title", "Colégio Cotemig");
     setTextHtml("second-education-subtitle", "Ensino médio e curso técnico em informática (Fev 2015 - Dez 2017).");
     
     /*Work experience*/
     setTextHtml("work-exp-title", "Experiência Profissional");
-    setTextHtml("first-work-exp-title", "Prodemge - Companhia de Tecnologia da Informação do Estado de Minas Gerais");
-    setTextHtml("first-work-exp-subtitle", "Estágiario de desenvolvimento backend (Nov 2022 - Atualmente)");
+    setTextHtml("first-work-exp-title", "Estagiário de desenvolvimento backend");
+    setTextHtml("first-work-exp-subtitle", "Prodemge - Companhia de Tecnologia da Informação do Estado de Minas Gerais (Nov 2022 - Atualmente)");
     setTextHtml("first-work-exp-text", `Trabalhei implementando novas funcionalidades, atualizações e manutenções no sistema
-    de emissão de carteiras de identidade do estado de Minas Gerais.
-    <br>
-    <br>
-    Competências: Java, Hibernate, JPA, SQL com IBM DB2, Git, Gitlab, POO, resolução de problemas.`);
-    setTextHtml("second-work-exp-title", "Codebuddy - Escola de informática para crianças e adolescentes");
-    setTextHtml("second-work-exp-subtitle", "Instrutor (Jan 2022 - Ago 2022)");
+    de emissão de carteiras de identidade do estado de Minas Gerais.`)
+    setTextHtml("first-work-skills","Competências: Java, Hibernate, JPA, SQL com IBM DB2, Git, Gitlab, POO, Resolução de problemas.");
+    setTextHtml("second-work-exp-title", "Instrutor");
+    setTextHtml("second-work-exp-subtitle", "Codebuddy - Escola de informática para crianças e adolescentes (Jan 2022 - Ago 2022)");
     setTextHtml("second-work-exp-text", `Trabalhei ensinando conceitos de informática para crianças e adolescentes, como lógica de 
-    programação, robótica, desenvolvimento de jogos simples e desenvolvimento de páginas web simples com HTML5, CSS3 e Javascript.
-    <br>
-    <br>
-    Competências: Lógica de programção, boa comunicação.`);
+    programação, robótica, desenvolvimento de jogos simples e desenvolvimento de páginas web simples com HTML5, CSS3 e Javascript.`);
+    setTextHtml("second-work-skills", "Competências: Lógica de programação, Boa comunicação.");
     
     /*Skills*/
     setTextHtml("skills-title", "Habilidades");
     setTextHtml("skills-text", `Java, Spring Boot, Banco de dados relacionais, Git, HTML5, CSS3, Typescript, SOLID, design de API's.
-    Languages: Português (Nativo), Inglês (Intermediário).`);
+    <br>
+    Línguas: Português (Nativo), Inglês (Intermediário).`);
 
     /*Projects*/
     setTextHtml("projects-title", "Projetos");
@@ -170,14 +164,14 @@ function portuguese(){
 
     /*Projects*/
     setTextHtml("academic-exp-title", "Projetos Acadêmicos");
-    setTextHtml("first-academic-exp-title", `<a href="https://trex.dcc.ufmg.br/en/">Theory Expertise Lab</a> - Departamento de Ciência da 
-    Computação UFMG`);
-    setTextHtml("first-academic-exp-subtitle", "Estudante de iniciação científica (Ago 2022 - Atualmente)");
+    setTextHtml("first-academic-exp-title", "Estudante de iniciação científica");
+    setTextHtml("first-academic-exp-subtitle", `<a class="trex-link" target="_blank" href="https://trex.dcc.ufmg.br/en/">Theory Expertise Lab</a> -
+    Departamento de Ciência da Computação UFMG (Ago 2022 - Atualmente)`);
     setTextHtml("first-academic-exp-text", `Trabalhando em um problema aberto relacionado à algoritmos e teoria dos grafos, orientado pelo professor Vinicius
     dos Santos.
     <br>
     <br>
-    Competências: matemática, algoritmos, teoria dos grafos, inglês.`);
+    <span class="academic-skills">Competências: Matemática, Algoritmos em grafos, Inglês, Pesquisa.</span>`);
  
     setTextHtml("copyrigth", "&#0169 Andres Junio S. Souza - 2023 (site em construção)");
     changeSprite();
