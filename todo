@@ -1,9 +1,26 @@
-align left items -> ok
+update the order of animations
 align rigth items 
+update the size of content letters
+update the link of trex lab
+add shadow in profile pic
+add favicon
+to repair the switcher-language box
+add certificates on "skills" section
+
+completed tasks
+---------------------------------------
+align left items -> ok
 set dynamic divs -> ok
-create switch language buttons
-create javascript code
+create javascript code -> ok
 select image for profile pic -> ok
-create typing animation effect -> ok
 create "about" section -> ok
-add icons on button
+create typing animation effect -> ok
+create switch language buttons -> ok
+add icons on the buttons -> ok
+create a footer with development informations -> ok
+add some pixel animation -> ok
+create a network field in about section -> ok
+
+aborted tasks
+---------------------------------------
+try implements a "terminal screen" in the content 

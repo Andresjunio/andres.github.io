@@ -26,6 +26,19 @@ function setTextHtml(element, text){
     document.getElementById(element).innerHTML = text;
 }
 
+function selectLanguage(){
+    var select = document.getElementById("languages");
+    var selectedOption = select.options[select.selectedIndex].value;
+
+    switch(selectedOption){
+        case "pt":
+            portuguese();
+            break;
+        case "en":
+            english();
+    }
+}
+
 function english(){
     /*left content*/
     setTextHtml("caption", "Java software engineer and Math student");
@@ -93,6 +106,8 @@ function english(){
     <br>
     Skills: Math, graph algorithms, english, research.`);
     
+    setTextHtml("copyrigth", "&#0169 Andres Junio S. Souza - 2023 (website under building)");
+
     changeSprite();
 }
 
@@ -163,5 +178,7 @@ function portuguese(){
     <br>
     <br>
     Competências: matemática, algoritmos, teoria dos grafos, inglês.`);
+ 
+    setTextHtml("copyrigth", "&#0169 Andres Junio S. Souza - 2023 (site em construção)");
     changeSprite();
 }

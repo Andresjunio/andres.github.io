@@ -32,9 +32,9 @@
     
     <section class="content">
         <div class="language-box">
-            <select name="languages" id="languages">
-                <option value="en" onclick="english()">English</option>
-                <option value="pt-br" onclick="portuguese()">Português</option>
+            <select name="languages" id="languages" onchange="selectLanguage()">
+                <option value="en" >English</option>
+                <option value="pt" >Português</option>
             </select>
         </div>
         <div class="about-me" id="about-me">
@@ -123,7 +123,7 @@
         </div>
         
         <footer>
-            <span class="copyrigth">&#0169 Andres Junio S. Souza - 2023</span>
+            <span class="copyrigth" id="copyrigth">&#0169 Andres Junio S. Souza - 2023 (website under building)</span>
         </footer>
     </section>
     <script src="script.js"></script>
