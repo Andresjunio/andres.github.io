@@ -1,7 +1,10 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     font-size: 1.2rem;
     background-color: #0c242c;
     color: white;
@@ -27,14 +30,6 @@ header{
 }
 
 
-.topic {
-    max-width: min-content;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: .15em solid white;
-    animation: typing 2.5s steps(30,end),
-    blink-caret .5s step-end infinite;
-}
 
 @keyframes typing {
     from {width: 0}
@@ -53,6 +48,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 1.5rem;
 }
 
 .profile-desc{
@@ -65,7 +61,7 @@ header{
 
 nav{
     padding-top: 20px;
-    height: 45%;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -114,10 +110,15 @@ i{
     display: flex;
     justify-content: flex-end;
 }
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 section{
-    height: 690px;
-    width: 75%;
+    height: 80vh;
+    width: 100%;
     padding: 35px 100px;
 }
 
@@ -131,6 +132,16 @@ h3 {
 
 p{
     font-size: 1.8rem;
+}
+
+.topic {
+    max-width: min-content;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    white-space: nowrap;
+    border-right: .15em solid white;
+    animation: typing 2.5s steps(30,end),
+    blink-caret .5s step-end infinite;
 }
 
 .work-skills,
@@ -147,8 +158,21 @@ p{
     height: 90%;
 }
 
+.education-chd,
+.work-exp-chd{
+    margin-bottom: 2rem;
+}
+
+#first-work-exp-text,
+#second-work-exp-text,
+#first-academic-exp-text{
+    margin-top: 2rem;
+    margin-bottom: 0.6rem;
+}
+
+
 .social-field{
-    margin-top: 100px;
+    margin-top: 5rem;
     height: 2em;
     display: flex;
     align-items: center;
@@ -171,8 +195,13 @@ footer{
 .sprite-field{
     display: flex;
     justify-content: flex-end;
+    margin-right: 2.5rem;
 }
 
 .sprite{
     justify-content: flex-end;
+    margin-right: 2.5rem;
 }
+
+/*media queries*/
+
